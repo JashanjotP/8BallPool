@@ -11,8 +11,6 @@ import random
 DEFAULT_PORT = 8000
 
 
-port = int(os.getenv('PORT', DEFAULT_PORT))
-
 
 class MyHandler(BaseHTTPRequestHandler):
     
@@ -437,6 +435,8 @@ class MyHandler(BaseHTTPRequestHandler):
 if __name__ == "__main__":
     #Get the port from command line and then start the server
     
-    httpd = HTTPServer( ( 'localhost', port), MyHandler );
-    print( "Server listing in port: "+ str(port) );
-    httpd.serve_forever();
+    port = int(os.getenv('PORT', DEFAULT_PORT))
+    server_address = ('0.0.0.0', port)
+    httpd = HTTPServer(server_address, MyHandler)
+    print("Server listening on port:", port)
+    httpd.serve_forever()
