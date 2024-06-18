@@ -1,0 +1,174 @@
+*{
+	-moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.con{
+	width: 100%;
+	height: 95vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.player-con{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+	padding-top: 60px;
+	flex-direction: column;
+}
+
+.names{
+	font-family: 'Krona One';
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 43.75px;
+	width: 328px;
+	height: 83px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 25px;
+	user-select: none;
+    margin-bottom: 40px;
+}
+
+.current-1{
+	background-color: #D65252ED;
+	color: #FFFFFF;
+	border: 4px solid #00000000;
+}
+
+.current-2{
+	color: #FFFFFF;
+	background-color: #0038FF99;
+	border: 4px solid #00000000;
+}
+
+.uncurrent-1{
+    color: #EF4343;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 5px 5px #D65252CC;
+
+}
+
+.uncurrent-2{
+	color: #0038FFCF;
+    background-color: #FFFFFF;
+	box-shadow: 5px 5px 5px 5px #0038FF99;
+}
+
+.balls-title{
+	font-family: Krona One;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 43.75px;
+	text-align: left;
+
+}
+
+.img-con{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.passive{
+	display: none;
+}
+
+.balls-con{
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 53px;
+	border-radius: 25px;
+	margin-bottom: 90px;
+	font-family: Krona One;
+	font-size: 35px;
+	font-weight: 400;
+	line-height: 43.75px;
+	text-align: left;
+}
+
+.win-con {
+    position: fixed; /* Fixed positioning */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.win-con.passive{
+	display: none;
+}
+
+.win-form {
+    background-color: #3E6E4EB2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow for the form */
+    width: 735px;
+	height: 420px;
+	top: 590px;
+	left: 78px;
+	gap: 0px;
+	border-radius: 25px;
+	opacity: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+
+.win-title{
+	font-family: Kadwa;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 100.39px;
+	text-align: left;
+	color: #FFFFFF;
+
+}
+
+.win-name,.win-desc{
+	
+	font-family: Kadwa;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 60.23px;
+	text-align: center;
+	margin-top: -5px;
+	color: #FFFFFF;
+}
+
+.new-game-btn{
+	width: 250px;
+	height: 56px;
+	top: 882px;
+	left: 322px;
+	gap: 0px;
+	border-radius: 25px;
+	opacity: 0px;
+	background-color: #FFFFFF;
+	box-shadow: 5px 5px 5px 5px #0000008C;
+	cursor: pointer;
+	font-family: Krona One;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 37.5px;
+	text-align: center;
+
+
+
+}
+
+

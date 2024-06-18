@@ -1,0 +1,80 @@
+.title-2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.title{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.input-group{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+}
+.btn{
+	display: flex;
+	justify-content: center;
+}
+
+.pool-title{
+	font-size: 100px;
+	font-family: 'Krona One';
+	font-weight: 400;
+	line-height: 125px;
+}
+
+.form-container{
+	width: 850px;
+}
+
+.player-title{
+	font-family: 'Krona One';
+	font-size: 35px;
+	width: 347px;
+	margin-top: 10px;
+}
+
+input[type="text"]{
+	width: 470px;
+	height: 59px;
+	font-size: 40px;
+	padding-left: 10px;
+	border-radius: 25px;
+	
+}
+#player1_name{
+	border: 2px #FF000082 solid;
+}
+
+#player2_name{
+	border: 2px #0038FF99 solid;
+}
+
+#game-label{
+	margin-left: 35px;
+}
+
+.btn-submit{
+	width: 470px;
+	height: 69px;
+	font-size: 45px;
+	font-family: 'Krona One';
+	font-weight: 400px;
+	border-radius: 25px;
+	border: 2px solid #000000;
+	line-height: 56.25px;
+	color: #FFFFFFFF;
+	background-color: #31363F;
+	cursor: pointer;
+}
+
+
