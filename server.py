@@ -4,7 +4,7 @@ import os
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse
 import Physics
-from setup import createTable
+from set import createTable
 import json
 import random
 

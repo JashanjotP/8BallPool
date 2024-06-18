@@ -16,8 +16,7 @@ RUN make
 # Set the environment variable for the shared library
 ENV LD_LIBRARY_PATH /app
 
-# Install any needed packages specified in setup.py
-RUN pip install .
+
 
 # Make port 8000 available to the world outside this container
 EXPOSE 8000
