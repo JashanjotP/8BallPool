@@ -1,0 +1,15 @@
+*.so
+*.o
+phylib_wrap.c
+phylib.py
+A2Test1.py
+A2Test2.py
+*.svg
+__pycache__
+A3Test1.py
+A3Test2.py
+A3Test3.py
+A3Test4.py
+test.py
+phylib.db
+_phylib
