@@ -8,6 +8,11 @@ from set import createTable
 import json
 import random
 
+DEFAULT_PORT = 8000
+
+
+port = int(os.getenv('PORT', DEFAULT_PORT))
+
 
 class MyHandler(BaseHTTPRequestHandler):
     
@@ -431,7 +436,7 @@ class MyHandler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     #Get the port from command line and then start the server
-    port = int(sys.argv[1] )
+    
     httpd = HTTPServer( ( 'localhost', port), MyHandler );
     print( "Server listing in port: "+ str(port) );
     httpd.serve_forever();
