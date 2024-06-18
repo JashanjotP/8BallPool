@@ -1,4 +1,3 @@
-import sys
 import cgi
 import os
 from http.server import HTTPServer, BaseHTTPRequestHandler
