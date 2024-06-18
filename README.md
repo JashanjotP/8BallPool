@@ -28,14 +28,14 @@ Ensure you have make utility installed if not already. Python3, clang, and swig 
 3. The make file will run a lot of commands these basically use the compiler and swig to create a library that can call C functions from within Python. We also need to tell the OS where this library is located during runtime
 
 ```sh
-	export LD_LIBRARY_PATH=`pwd`
-```
+   export LD_LIBRARY_PATH=`pwd`
+   ```
 
 4. Now you can run the web server locally
 
 ```sh
-	python3 server.py
-```
+   python3 server.py
+   ```
 
 Project is Hosted on Railway
 
