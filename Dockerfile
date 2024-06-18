@@ -1,11 +1,11 @@
-# Use an official Python runtime as a parent image
-FROM python:3.9-slim
+# Use an official Python 3.11 runtime as a parent image
+FROM python:3.11-slim
 
 # Set the working directory
 WORKDIR /app
 
-# Install required packages for building C code and SWIG
-RUN apt-get update && apt-get install -y build-essential clang swig
+# Install required packages for building C code, SWIG, and Python development headers
+RUN apt-get update && apt-get install -y build-essential clang swig python3-dev
 
 # Copy the current directory contents into the container at /app
 COPY . /app
