@@ -78,3 +78,7 @@ Ensure you have make utility installed if not already. Python3, clang, and swig 
 ### Hosting
 
 Link: [https://8ballpool-production.up.railway.app/]
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
